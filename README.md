@@ -1,3 +1,3 @@
 # jenk-file
 
-Sample repo to check the wokring of jenkins pipeline build
+Sample repo to check the working of jenkins pipeline build
