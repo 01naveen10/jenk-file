@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-                sh 'pythoon mam.py'
+                sh 'python mam.py'
             }
         }
     }
