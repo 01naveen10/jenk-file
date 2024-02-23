@@ -1,11 +1,11 @@
 pipeline {
     agent {
-        docker { image 'trainwithshubham/django-app:latest' }
+        docker { image '01naveen10/simple-nodejs-website:latest' }
     }
     stages {
         stage('Test') {
             steps {
-                sh 'django-admin --version'
+                sh 'node server.js'
             }
         }
     }
